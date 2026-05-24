@@ -256,7 +256,8 @@ footer{background:var(--dark);padding:64px 0 0;color:rgba(255,255,255,.7)}
   .section-pad{padding:64px 0}
   .stats-inner{grid-template-columns:repeat(2,1fr)}
   .stat-item:nth-child(2){border-right:none}
-  .nav-links{display:none;flex-direction:column;position:absolute;top:72px;left:0;right:0;background:var(--dark);padding:16px 24px 24px;gap:4px;z-index:999}
+  .nav-links{display:none;flex-direction:column;position:absolute;top:72px;left:0;right:0;background:var(--dark);padding:20px 24px 36px;gap:38px;z-index:999}
+  .nav-links a{padding:14px 18px;font-size:.95rem;border-radius:var(--radius)}
   .nav-links.open{display:flex}
   .hamburger{display:flex}
   .hero-badges{gap:18px}
