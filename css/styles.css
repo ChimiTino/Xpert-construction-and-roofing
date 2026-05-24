@@ -146,6 +146,18 @@ ul{list-style:none}
 .why-card h3{font-family:var(--font-heading);font-size:1.1rem;font-weight:700;color:var(--black);margin-bottom:12px}
 .why-card p{font-size:.92rem;color:var(--gray);line-height:1.7}
 
+/* ── Testimonials / Reviews ── */
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px;margin-top:8px}
+.review-card{background:var(--white);border:1px solid var(--border);border-radius:var(--radius-lg);padding:36px 32px;display:flex;flex-direction:column;gap:20px;box-shadow:var(--shadow-sm);transition:var(--transition)}
+.review-card:hover{border-color:var(--green-primary);box-shadow:var(--shadow-md);transform:translateY(-4px)}
+.review-stars{display:flex;gap:3px}
+.review-text{font-size:.93rem;color:var(--gray);line-height:1.8;flex:1;position:relative;padding-top:4px}
+.review-text::before{content:'\201C';font-family:Georgia,serif;font-size:3.5rem;color:var(--green-light);line-height:0;position:absolute;top:20px;left:-6px;pointer-events:none}
+.review-author{display:flex;align-items:center;gap:14px;padding-top:4px;border-top:1px solid var(--border)}
+.review-avatar{width:46px;height:46px;border-radius:50%;background:var(--green-primary);color:var(--white);font-family:var(--font-heading);font-weight:700;font-size:.88rem;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.review-name{display:block;font-family:var(--font-heading);font-size:.92rem;font-weight:700;color:var(--black)}
+.review-location{display:block;font-size:.8rem;color:var(--gray);margin-top:2px}
+
 /* ── Regions ── */
 .regions-section{background:var(--black);position:relative;overflow:hidden}
 .regions-section::before{content:'';position:absolute;top:-80px;right:-80px;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(45,138,31,.2) 0%,transparent 70%)}
@@ -268,6 +280,8 @@ footer{background:var(--dark);padding:64px 0 0;color:rgba(255,255,255,.7)}
   .form-row{grid-template-columns:1fr}
   .regions-list{grid-template-columns:1fr}
   .about-regions-grid{grid-template-columns:1fr}
+  .reviews-grid{grid-template-columns:1fr;gap:20px}
+  .review-card{padding:28px 24px}
   .footer-grid{grid-template-columns:1fr;gap:32px}
   .contact-form-wrap{padding:28px 24px}
   .contact-layout{gap:28px}
