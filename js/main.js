@@ -3,7 +3,7 @@
    ============================================================ */
 
 /* ──────────────────────────────────────────────────────────
-   EMAIL CONFIG — Web3Forms (free, no monthly limits)
+   EMAIL CONFIG — Web3Forms (, no monthly limits)
    
    HOW TO ACTIVATE IN 3 STEPS:
    1. Go to https://web3forms.com/
